@@ -1,0 +1,35 @@
+.heading
+	position: absolute
+	right: 0
+	bottom: 10%
+
+	display: block
+
+	width: 50%
+	margin-right: 20px
+
+	text-align: right
+
+	color: #ffffff
+
+	font-family: $accent-font
+	font-size: 12vw
+	line-height: 1
+
+	@include media(">=xxs")
+		bottom: 10%
+
+		width: 100%
+
+		font-size: 8vw
+
+.heroimage
+	@include imageSet("../img/header/heroimage.jpg", 1 1.5 2)
+
+	position: relative
+
+	width: 100%
+	min-height: 60vw
+
+	background-position: left center
+	background-size: cover

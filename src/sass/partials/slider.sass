@@ -1,0 +1,73 @@
+.slider
+	position: relative
+
+	visibility: hidden
+	overflow: hidden
+
+	margin: 1em 0
+
+.slider-wrapper
+	position: relative
+
+	overflow: hidden
+
+.slider-wrapper figure
+	position: relative
+
+	float: left
+
+	width: 100%
+	height: 70vw
+
+	background-color: #ffffff
+
+.slider img
+	display: block
+
+	width: auto //Override width and height attributes
+	max-width: 100%
+	max-height: calc(100% - #{$caption-height})
+	margin: auto
+
+	vertical-align: middle
+
+.slider figcaption
+	height: $caption-height
+	padding: 1em 0
+
+	text-align: center
+
+	font-size: $caption-font-size
+	font-style: italic
+
+.btn-wrapper
+	position: absolute
+	top: 0
+	display: flex
+
+	flex-direction: column
+	justify-content: center
+	height: calc(100% - #{$caption-height})
+
+	background-color: #fff
+
+.prev
+	left: 0
+
+.next
+	right: 0
+
+.btn-prev, .btn-next
+	position: relative
+	line-height: 1
+
+.slider-nav .icon-back, .slider-nav .icon-next
+	position: relative
+
+	width: 1.5em
+	height: 1.5em
+
+	cursor: pointer
+
+	&:hover
+		fill: $line-color

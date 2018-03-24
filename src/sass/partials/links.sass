@@ -1,0 +1,154 @@
+.links
+	display: flex
+	flex-wrap: wrap
+
+	margin-top: 2em
+
+	@include media(">=l")
+		margin: 0 30px //adjust to new container
+
+.links-title
+	width: 100%
+	padding-bottom: 1em
+
+	text-transform: uppercase
+
+	font-family: $heading-font
+	font-size: $links-title-size
+
+	@include media(">=l")
+		padding-left: 5px
+
+.button-group
+	width: 100%
+	padding: 0 0.5em
+
+	@include media(">=m")
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+
+		width: calc(40% - 3px)
+	@include media(">=l")
+		width: 50%
+
+.links-image
+	display: none
+
+	@include media(">=m")
+		display: block
+		align-self: center
+
+		width: auto
+		max-width: 60%
+		height: auto
+		max-height: 30em
+		margin-right: 1px
+		margin-left: auto
+	@include media(">=l")
+		max-width: calc(50% - 3px)
+
+.link-button
+	position: relative
+
+	display: flex
+	flex-direction: column
+
+	margin: 1em auto
+	padding: 1em 2em
+
+	text-align: center
+	text-decoration: none
+
+	color: $link-color
+	border: 2px solid $link-color
+
+	font-family: $heading-font
+	font-size: $links-size
+
+	@include media(">=xxs")
+		width: 75%
+	@include media(">=xs")
+		width: 65%
+	@include media(">=s")
+		width: 55%
+	@include media(">=m")
+		width: 100%
+		margin: 0
+
+		transition: color 0.25s
+
+		border: none
+		box-shadow: inset 0 0 0 2px #ffffff // Using inset box-shadow instead of border for sizing simplicity
+
+.link-button:visited
+	color: $link-color-visited
+	border-color: $link-color-visited
+
+	@include media(">=m")
+		color: $link-color-visited
+
+.link-button:focus
+	color: $link-color-hover
+	outline: thin dotted
+
+	@include media(">=m")
+		color: $link-color-hover
+		outline: thin dotted
+
+.link-button:hover
+	border-color: $link-color-hover
+
+	@include media(">=m")
+		cursor: pointer
+		transform: scale(0.9)
+
+		color: $link-color-hover
+
+.link-button:active
+	transition: ease-out 5ms
+	transform: scale(0.9)
+
+	color: $link-color-hover
+	border-color: $link-color-hover
+
+//Button animation
+@include media(">=m")
+	.link-button
+		&::before, &::after
+			position: absolute
+
+			box-sizing: inherit
+			width: 100%
+			width: 0
+			height: 100%
+			height: 0
+
+			content: ""
+
+			border: 2px solid transparent // Set border to invisible, so we don't see a 4px border on a 0x0 element before the transition starts
+
+		&::before // Top & right borders (expands right, then down)
+			top: 0
+			left: 0
+
+		&::after // Bottom & left borders (expands left, then up)
+			right: 0
+			bottom: 0
+
+		// Hover styles
+		&:hover::before, &:hover::after
+			width: 100%
+			height: 100%
+
+		&:hover::before
+			transition: width 0.25s ease-out, height 0.25s ease-out 0.25s
+
+			border-top-color: $link-color-hover
+			border-right-color: $link-color-hover
+
+		&:hover::after
+			transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s
+
+			border-bottom-color: $link-color-hover
+			border-left-color: $link-color-hover

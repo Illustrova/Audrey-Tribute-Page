@@ -1,0 +1,58 @@
+{
+	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Yesterday.tmTheme",
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"font_size": 13,
+	"ignored_packages":
+	[
+		"Color Highlighter",
+		"JSONComma",
+		"PostCSS Sorting",
+		"Reindent on save",
+		"Vintage"
+	],
+	"on_pre_save_user":
+	[
+		{
+			"command": "css_comb"
+		},
+		{
+			"command": "select_all"
+		},
+		{
+			"args":
+			{
+				"surplus": true
+			},
+			"command": "delete_blank_lines"
+		},
+		{
+			"command": "deselect"
+		},
+		{
+			"args":
+			{
+				"setting": "tab_size",
+				"value": 2
+			},
+			"command": "set_setting"
+		},
+		{
+			"command": "unexpand_tabs"
+		},
+		{
+			"args":
+			{
+				"setting": "tab_size",
+				"value": 4
+			},
+			"command": "set_setting"
+		}
+	],
+	"theme": "Boxy Yesterday.sublime-theme",
+	"trim_trailing_white_space_on_save": true
+}

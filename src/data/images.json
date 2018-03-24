@@ -1,0 +1,829 @@
+{
+	"images": {
+		"audrey-hepburn-1953": {
+			"path": "'img/article/audrey-hepburn-1953.jpg'",
+			"width": 1000,
+			"height": 1328
+		},
+		"audrey-hepburn-1953_1200": {
+			"path": "'img/article/audrey-hepburn-1953_1200.jpg'",
+			"width": 1200,
+			"height": 1594
+		},
+		"audrey-hepburn-1953_1600": {
+			"path": "'img/article/audrey-hepburn-1953_1600.jpg'",
+			"width": 1280,
+			"height": 1700
+		},
+		"audrey-hepburn-1953_320": {
+			"path": "'img/article/audrey-hepburn-1953_320.jpg'",
+			"width": 320,
+			"height": 425
+		},
+		"audrey-hepburn-1953_450": {
+			"path": "'img/article/audrey-hepburn-1953_450.jpg'",
+			"width": 450,
+			"height": 598
+		},
+		"audrey-hepburn-1953_520": {
+			"path": "'img/article/audrey-hepburn-1953_520.jpg'",
+			"width": 520,
+			"height": 691
+		},
+		"audrey-hepburn-1953_680": {
+			"path": "'img/article/audrey-hepburn-1953_680.jpg'",
+			"width": 680,
+			"height": 903
+		},
+		"audrey-hepburn-1953_768": {
+			"path": "'img/article/audrey-hepburn-1953_768.jpg'",
+			"width": 768,
+			"height": 1020
+		},
+		"audrey-hepburn-1953_992": {
+			"path": "'img/article/audrey-hepburn-1953_992.jpg'",
+			"width": 992,
+			"height": 1318
+		},
+		"audrey-hepburn-ballet": {
+			"path": "'img/article/audrey-hepburn-ballet.jpg'",
+			"width": 1000,
+			"height": 730
+		},
+		"audrey-hepburn-ballet_1200": {
+			"path": "'img/article/audrey-hepburn-ballet_1200.jpg'",
+			"width": 1200,
+			"height": 876
+		},
+		"audrey-hepburn-ballet_1600": {
+			"path": "'img/article/audrey-hepburn-ballet_1600.jpg'",
+			"width": 1298,
+			"height": 948
+		},
+		"audrey-hepburn-ballet_320": {
+			"path": "'img/article/audrey-hepburn-ballet_320.jpg'",
+			"width": 320,
+			"height": 234
+		},
+		"audrey-hepburn-ballet_450": {
+			"path": "'img/article/audrey-hepburn-ballet_450.jpg'",
+			"width": 450,
+			"height": 329
+		},
+		"audrey-hepburn-ballet_520": {
+			"path": "'img/article/audrey-hepburn-ballet_520.jpg'",
+			"width": 520,
+			"height": 380
+		},
+		"audrey-hepburn-ballet_680": {
+			"path": "'img/article/audrey-hepburn-ballet_680.jpg'",
+			"width": 680,
+			"height": 497
+		},
+		"audrey-hepburn-ballet_768": {
+			"path": "'img/article/audrey-hepburn-ballet_768.jpg'",
+			"width": 768,
+			"height": 561
+		},
+		"audrey-hepburn-ballet_992": {
+			"path": "'img/article/audrey-hepburn-ballet_992.jpg'",
+			"width": 992,
+			"height": 725
+		},
+		"audrey-hepburn-breakfast-at-tiffanys": {
+			"path": "'img/article/audrey-hepburn-breakfast-at-tiffanys.jpg'",
+			"width": 1000,
+			"height": 739
+		},
+		"audrey-hepburn-breakfast-at-tiffanys_1200": {
+			"path": "'img/article/audrey-hepburn-breakfast-at-tiffanys_1200.jpg'",
+			"width": 1200,
+			"height": 887
+		},
+		"audrey-hepburn-breakfast-at-tiffanys_1600": {
+			"path": "'img/article/audrey-hepburn-breakfast-at-tiffanys_1600.jpg'",
+			"width": 1600,
+			"height": 1182
+		},
+		"audrey-hepburn-breakfast-at-tiffanys_320": {
+			"path": "'img/article/audrey-hepburn-breakfast-at-tiffanys_320.jpg'",
+			"width": 320,
+			"height": 236
+		},
+		"audrey-hepburn-breakfast-at-tiffanys_450": {
+			"path": "'img/article/audrey-hepburn-breakfast-at-tiffanys_450.jpg'",
+			"width": 450,
+			"height": 333
+		},
+		"audrey-hepburn-breakfast-at-tiffanys_520": {
+			"path": "'img/article/audrey-hepburn-breakfast-at-tiffanys_520.jpg'",
+			"width": 520,
+			"height": 384
+		},
+		"audrey-hepburn-breakfast-at-tiffanys_680": {
+			"path": "'img/article/audrey-hepburn-breakfast-at-tiffanys_680.jpg'",
+			"width": 680,
+			"height": 503
+		},
+		"audrey-hepburn-breakfast-at-tiffanys_768": {
+			"path": "'img/article/audrey-hepburn-breakfast-at-tiffanys_768.jpg'",
+			"width": 768,
+			"height": 568
+		},
+		"audrey-hepburn-breakfast-at-tiffanys_992": {
+			"path": "'img/article/audrey-hepburn-breakfast-at-tiffanys_992.jpg'",
+			"width": 992,
+			"height": 733
+		},
+		"audrey-hepburn-gigi": {
+			"path": "'img/article/audrey-hepburn-gigi.jpg'",
+			"width": 701,
+			"height": 1052
+		},
+		"audrey-hepburn-gigi_1200": {
+			"path": "'img/article/audrey-hepburn-gigi_1200.jpg'",
+			"width": 701,
+			"height": 1052
+		},
+		"audrey-hepburn-gigi_1600": {
+			"path": "'img/article/audrey-hepburn-gigi_1600.jpg'",
+			"width": 701,
+			"height": 1052
+		},
+		"audrey-hepburn-gigi_320": {
+			"path": "'img/article/audrey-hepburn-gigi_320.jpg'",
+			"width": 320,
+			"height": 480
+		},
+		"audrey-hepburn-gigi_450": {
+			"path": "'img/article/audrey-hepburn-gigi_450.jpg'",
+			"width": 450,
+			"height": 675
+		},
+		"audrey-hepburn-gigi_520": {
+			"path": "'img/article/audrey-hepburn-gigi_520.jpg'",
+			"width": 520,
+			"height": 780
+		},
+		"audrey-hepburn-gigi_680": {
+			"path": "'img/article/audrey-hepburn-gigi_680.jpg'",
+			"width": 680,
+			"height": 1020
+		},
+		"audrey-hepburn-gigi_768": {
+			"path": "'img/article/audrey-hepburn-gigi_768.jpg'",
+			"width": 701,
+			"height": 1052
+		},
+		"audrey-hepburn-gigi_992": {
+			"path": "'img/article/audrey-hepburn-gigi_992.jpg'",
+			"width": 701,
+			"height": 1052
+		},
+		"audrey-hepburn-gregory-peck": {
+			"path": "'img/article/audrey-hepburn-gregory-peck.jpg'",
+			"width": 1000,
+			"height": 785
+		},
+		"audrey-hepburn-gregory-peck_1200": {
+			"path": "'img/article/audrey-hepburn-gregory-peck_1200.jpg'",
+			"width": 1200,
+			"height": 942
+		},
+		"audrey-hepburn-gregory-peck_1600": {
+			"path": "'img/article/audrey-hepburn-gregory-peck_1600.jpg'",
+			"width": 1600,
+			"height": 1256
+		},
+		"audrey-hepburn-gregory-peck_320": {
+			"path": "'img/article/audrey-hepburn-gregory-peck_320.jpg'",
+			"width": 320,
+			"height": 251
+		},
+		"audrey-hepburn-gregory-peck_450": {
+			"path": "'img/article/audrey-hepburn-gregory-peck_450.jpg'",
+			"width": 450,
+			"height": 353
+		},
+		"audrey-hepburn-gregory-peck_520": {
+			"path": "'img/article/audrey-hepburn-gregory-peck_520.jpg'",
+			"width": 520,
+			"height": 408
+		},
+		"audrey-hepburn-gregory-peck_680": {
+			"path": "'img/article/audrey-hepburn-gregory-peck_680.jpg'",
+			"width": 680,
+			"height": 534
+		},
+		"audrey-hepburn-gregory-peck_768": {
+			"path": "'img/article/audrey-hepburn-gregory-peck_768.jpg'",
+			"width": 768,
+			"height": 603
+		},
+		"audrey-hepburn-gregory-peck_992": {
+			"path": "'img/article/audrey-hepburn-gregory-peck_992.jpg'",
+			"width": 992,
+			"height": 779
+		},
+		"audrey-hepburn-hamphrey-bogart-sabrina": {
+			"path": "'img/article/audrey-hepburn-hamphrey-bogart-sabrina.jpg'",
+			"width": 1000,
+			"height": 785
+		},
+		"audrey-hepburn-hamphrey-bogart-sabrina_1200": {
+			"path": "'img/article/audrey-hepburn-hamphrey-bogart-sabrina_1200.jpg'",
+			"width": 1200,
+			"height": 942
+		},
+		"audrey-hepburn-hamphrey-bogart-sabrina_1600": {
+			"path": "'img/article/audrey-hepburn-hamphrey-bogart-sabrina_1600.jpg'",
+			"width": 1600,
+			"height": 1255
+		},
+		"audrey-hepburn-hamphrey-bogart-sabrina_320": {
+			"path": "'img/article/audrey-hepburn-hamphrey-bogart-sabrina_320.jpg'",
+			"width": 320,
+			"height": 251
+		},
+		"audrey-hepburn-hamphrey-bogart-sabrina_450": {
+			"path": "'img/article/audrey-hepburn-hamphrey-bogart-sabrina_450.jpg'",
+			"width": 450,
+			"height": 353
+		},
+		"audrey-hepburn-hamphrey-bogart-sabrina_520": {
+			"path": "'img/article/audrey-hepburn-hamphrey-bogart-sabrina_520.jpg'",
+			"width": 520,
+			"height": 408
+		},
+		"audrey-hepburn-hamphrey-bogart-sabrina_680": {
+			"path": "'img/article/audrey-hepburn-hamphrey-bogart-sabrina_680.jpg'",
+			"width": 680,
+			"height": 534
+		},
+		"audrey-hepburn-hamphrey-bogart-sabrina_768": {
+			"path": "'img/article/audrey-hepburn-hamphrey-bogart-sabrina_768.jpg'",
+			"width": 768,
+			"height": 603
+		},
+		"audrey-hepburn-hamphrey-bogart-sabrina_992": {
+			"path": "'img/article/audrey-hepburn-hamphrey-bogart-sabrina_992.jpg'",
+			"width": 992,
+			"height": 778
+		},
+		"audrey-hepburn-holden": {
+			"path": "'img/article/audrey-hepburn-holden.jpg'",
+			"width": 1000,
+			"height": 1214
+		},
+		"audrey-hepburn-holden_1200": {
+			"path": "'img/article/audrey-hepburn-holden_1200.jpg'",
+			"width": 1200,
+			"height": 1457
+		},
+		"audrey-hepburn-holden_1600": {
+			"path": "'img/article/audrey-hepburn-holden_1600.jpg'",
+			"width": 1280,
+			"height": 1554
+		},
+		"audrey-hepburn-holden_320": {
+			"path": "'img/article/audrey-hepburn-holden_320.jpg'",
+			"width": 320,
+			"height": 389
+		},
+		"audrey-hepburn-holden_450": {
+			"path": "'img/article/audrey-hepburn-holden_450.jpg'",
+			"width": 450,
+			"height": 546
+		},
+		"audrey-hepburn-holden_520": {
+			"path": "'img/article/audrey-hepburn-holden_520.jpg'",
+			"width": 520,
+			"height": 631
+		},
+		"audrey-hepburn-holden_680": {
+			"path": "'img/article/audrey-hepburn-holden_680.jpg'",
+			"width": 680,
+			"height": 826
+		},
+		"audrey-hepburn-holden_768": {
+			"path": "'img/article/audrey-hepburn-holden_768.jpg'",
+			"width": 768,
+			"height": 932
+		},
+		"audrey-hepburn-holden_992": {
+			"path": "'img/article/audrey-hepburn-holden_992.jpg'",
+			"width": 992,
+			"height": 1204
+		},
+		"audrey-hepburn-mel-ferrer-sean": {
+			"path": "'img/article/audrey-hepburn-mel-ferrer-sean.jpg'",
+			"width": 927,
+			"height": 1200
+		},
+		"audrey-hepburn-mel-ferrer-sean_1200": {
+			"path": "'img/article/audrey-hepburn-mel-ferrer-sean_1200.jpg'",
+			"width": 927,
+			"height": 1200
+		},
+		"audrey-hepburn-mel-ferrer-sean_1600": {
+			"path": "'img/article/audrey-hepburn-mel-ferrer-sean_1600.jpg'",
+			"width": 927,
+			"height": 1200
+		},
+		"audrey-hepburn-mel-ferrer-sean_320": {
+			"path": "'img/article/audrey-hepburn-mel-ferrer-sean_320.jpg'",
+			"width": 320,
+			"height": 414
+		},
+		"audrey-hepburn-mel-ferrer-sean_450": {
+			"path": "'img/article/audrey-hepburn-mel-ferrer-sean_450.jpg'",
+			"width": 450,
+			"height": 583
+		},
+		"audrey-hepburn-mel-ferrer-sean_520": {
+			"path": "'img/article/audrey-hepburn-mel-ferrer-sean_520.jpg'",
+			"width": 520,
+			"height": 673
+		},
+		"audrey-hepburn-mel-ferrer-sean_680": {
+			"path": "'img/article/audrey-hepburn-mel-ferrer-sean_680.jpg'",
+			"width": 680,
+			"height": 880
+		},
+		"audrey-hepburn-mel-ferrer-sean_768": {
+			"path": "'img/article/audrey-hepburn-mel-ferrer-sean_768.jpg'",
+			"width": 768,
+			"height": 994
+		},
+		"audrey-hepburn-mel-ferrer-sean_992": {
+			"path": "'img/article/audrey-hepburn-mel-ferrer-sean_992.jpg'",
+			"width": 927,
+			"height": 1200
+		},
+		"audrey-hepburn-oscar": {
+			"path": "'img/article/audrey-hepburn-oscar.jpg'",
+			"width": 1000,
+			"height": 1237
+		},
+		"audrey-hepburn-oscar_1200": {
+			"path": "'img/article/audrey-hepburn-oscar_1200.jpg'",
+			"width": 1200,
+			"height": 1484
+		},
+		"audrey-hepburn-oscar_1600": {
+			"path": "'img/article/audrey-hepburn-oscar_1600.jpg'",
+			"width": 1600,
+			"height": 1979
+		},
+		"audrey-hepburn-oscar_320": {
+			"path": "'img/article/audrey-hepburn-oscar_320.jpg'",
+			"width": 320,
+			"height": 396
+		},
+		"audrey-hepburn-oscar_450": {
+			"path": "'img/article/audrey-hepburn-oscar_450.jpg'",
+			"width": 450,
+			"height": 556
+		},
+		"audrey-hepburn-oscar_520": {
+			"path": "'img/article/audrey-hepburn-oscar_520.jpg'",
+			"width": 520,
+			"height": 643
+		},
+		"audrey-hepburn-oscar_680": {
+			"path": "'img/article/audrey-hepburn-oscar_680.jpg'",
+			"width": 680,
+			"height": 841
+		},
+		"audrey-hepburn-oscar_768": {
+			"path": "'img/article/audrey-hepburn-oscar_768.jpg'",
+			"width": 768,
+			"height": 950
+		},
+		"audrey-hepburn-oscar_992": {
+			"path": "'img/article/audrey-hepburn-oscar_992.jpg'",
+			"width": 992,
+			"height": 1227
+		},
+		"audrey-hepburn-unicef": {
+			"path": "'img/article/audrey-hepburn-unicef.jpg'",
+			"width": 1000,
+			"height": 662
+		},
+		"audrey-hepburn-unicef_1200": {
+			"path": "'img/article/audrey-hepburn-unicef_1200.jpg'",
+			"width": 1200,
+			"height": 795
+		},
+		"audrey-hepburn-unicef_1600": {
+			"path": "'img/article/audrey-hepburn-unicef_1600.jpg'",
+			"width": 1600,
+			"height": 1059
+		},
+		"audrey-hepburn-unicef_320": {
+			"path": "'img/article/audrey-hepburn-unicef_320.jpg'",
+			"width": 320,
+			"height": 212
+		},
+		"audrey-hepburn-unicef_450": {
+			"path": "'img/article/audrey-hepburn-unicef_450.jpg'",
+			"width": 450,
+			"height": 298
+		},
+		"audrey-hepburn-unicef_520": {
+			"path": "'img/article/audrey-hepburn-unicef_520.jpg'",
+			"width": 520,
+			"height": 344
+		},
+		"audrey-hepburn-unicef_680": {
+			"path": "'img/article/audrey-hepburn-unicef_680.jpg'",
+			"width": 680,
+			"height": 450
+		},
+		"audrey-hepburn-unicef_768": {
+			"path": "'img/article/audrey-hepburn-unicef_768.jpg'",
+			"width": 768,
+			"height": 508
+		},
+		"audrey-hepburn-unicef_992": {
+			"path": "'img/article/audrey-hepburn-unicef_992.jpg'",
+			"width": 992,
+			"height": 657
+		},
+		"audrey-hepburn-william-holden-sabrina": {
+			"path": "'img/article/audrey-hepburn-william-holden-sabrina.jpg'",
+			"width": 1000,
+			"height": 1259
+		},
+		"audrey-hepburn-william-holden-sabrina_1200": {
+			"path": "'img/article/audrey-hepburn-william-holden-sabrina_1200.jpg'",
+			"width": 1200,
+			"height": 1511
+		},
+		"audrey-hepburn-william-holden-sabrina_1600": {
+			"path": "'img/article/audrey-hepburn-william-holden-sabrina_1600.jpg'",
+			"width": 1271,
+			"height": 1600
+		},
+		"audrey-hepburn-william-holden-sabrina_320": {
+			"path": "'img/article/audrey-hepburn-william-holden-sabrina_320.jpg'",
+			"width": 320,
+			"height": 403
+		},
+		"audrey-hepburn-william-holden-sabrina_450": {
+			"path": "'img/article/audrey-hepburn-william-holden-sabrina_450.jpg'",
+			"width": 450,
+			"height": 566
+		},
+		"audrey-hepburn-william-holden-sabrina_520": {
+			"path": "'img/article/audrey-hepburn-william-holden-sabrina_520.jpg'",
+			"width": 520,
+			"height": 655
+		},
+		"audrey-hepburn-william-holden-sabrina_680": {
+			"path": "'img/article/audrey-hepburn-william-holden-sabrina_680.jpg'",
+			"width": 680,
+			"height": 856
+		},
+		"audrey-hepburn-william-holden-sabrina_768": {
+			"path": "'img/article/audrey-hepburn-william-holden-sabrina_768.jpg'",
+			"width": 768,
+			"height": 967
+		},
+		"audrey-hepburn-william-holden-sabrina_992": {
+			"path": "'img/article/audrey-hepburn-william-holden-sabrina_992.jpg'",
+			"width": 992,
+			"height": 1249
+		},
+		"audrey-hepburn-with-givenchy": {
+			"path": "'img/article/audrey-hepburn-with-givenchy.jpg'",
+			"width": 1000,
+			"height": 1492
+		},
+		"audrey-hepburn-with-givenchy_1200": {
+			"path": "'img/article/audrey-hepburn-with-givenchy_1200.jpg'",
+			"width": 1200,
+			"height": 1791
+		},
+		"audrey-hepburn-with-givenchy_1600": {
+			"path": "'img/article/audrey-hepburn-with-givenchy_1600.jpg'",
+			"width": 1300,
+			"height": 1940
+		},
+		"audrey-hepburn-with-givenchy_320": {
+			"path": "'img/article/audrey-hepburn-with-givenchy_320.jpg'",
+			"width": 320,
+			"height": 478
+		},
+		"audrey-hepburn-with-givenchy_450": {
+			"path": "'img/article/audrey-hepburn-with-givenchy_450.jpg'",
+			"width": 450,
+			"height": 672
+		},
+		"audrey-hepburn-with-givenchy_520": {
+			"path": "'img/article/audrey-hepburn-with-givenchy_520.jpg'",
+			"width": 520,
+			"height": 776
+		},
+		"audrey-hepburn-with-givenchy_680": {
+			"path": "'img/article/audrey-hepburn-with-givenchy_680.jpg'",
+			"width": 680,
+			"height": 1015
+		},
+		"audrey-hepburn-with-givenchy_768": {
+			"path": "'img/article/audrey-hepburn-with-givenchy_768.jpg'",
+			"width": 768,
+			"height": 1146
+		},
+		"audrey-hepburn-with-givenchy_992": {
+			"path": "'img/article/audrey-hepburn-with-givenchy_992.jpg'",
+			"width": 992,
+			"height": 1480
+		},
+		"audrey-luca-dotti": {
+			"path": "'img/article/audrey-luca-dotti.jpg'",
+			"width": 842,
+			"height": 1120
+		},
+		"audrey-luca-dotti_1200": {
+			"path": "'img/article/audrey-luca-dotti_1200.jpg'",
+			"width": 842,
+			"height": 1120
+		},
+		"audrey-luca-dotti_1600": {
+			"path": "'img/article/audrey-luca-dotti_1600.jpg'",
+			"width": 842,
+			"height": 1120
+		},
+		"audrey-luca-dotti_320": {
+			"path": "'img/article/audrey-luca-dotti_320.jpg'",
+			"width": 320,
+			"height": 426
+		},
+		"audrey-luca-dotti_450": {
+			"path": "'img/article/audrey-luca-dotti_450.jpg'",
+			"width": 450,
+			"height": 599
+		},
+		"audrey-luca-dotti_520": {
+			"path": "'img/article/audrey-luca-dotti_520.jpg'",
+			"width": 520,
+			"height": 692
+		},
+		"audrey-luca-dotti_680": {
+			"path": "'img/article/audrey-luca-dotti_680.jpg'",
+			"width": 680,
+			"height": 905
+		},
+		"audrey-luca-dotti_768": {
+			"path": "'img/article/audrey-luca-dotti_768.jpg'",
+			"width": 768,
+			"height": 1022
+		},
+		"audrey-luca-dotti_992": {
+			"path": "'img/article/audrey-luca-dotti_992.jpg'",
+			"width": 842,
+			"height": 1120
+		},
+		"audrey-robert-wolders": {
+			"path": "'img/article/audrey-robert-wolders.jpg'",
+			"width": 700,
+			"height": 955
+		},
+		"audrey-robert-wolders_1200": {
+			"path": "'img/article/audrey-robert-wolders_1200.jpg'",
+			"width": 700,
+			"height": 955
+		},
+		"audrey-robert-wolders_1600": {
+			"path": "'img/article/audrey-robert-wolders_1600.jpg'",
+			"width": 700,
+			"height": 955
+		},
+		"audrey-robert-wolders_320": {
+			"path": "'img/article/audrey-robert-wolders_320.jpg'",
+			"width": 320,
+			"height": 437
+		},
+		"audrey-robert-wolders_450": {
+			"path": "'img/article/audrey-robert-wolders_450.jpg'",
+			"width": 450,
+			"height": 614
+		},
+		"audrey-robert-wolders_520": {
+			"path": "'img/article/audrey-robert-wolders_520.jpg'",
+			"width": 520,
+			"height": 709
+		},
+		"audrey-robert-wolders_680": {
+			"path": "'img/article/audrey-robert-wolders_680.jpg'",
+			"width": 680,
+			"height": 928
+		},
+		"audrey-robert-wolders_768": {
+			"path": "'img/article/audrey-robert-wolders_768.jpg'",
+			"width": 700,
+			"height": 955
+		},
+		"audrey-robert-wolders_992": {
+			"path": "'img/article/audrey-robert-wolders_992.jpg'",
+			"width": 700,
+			"height": 955
+		},
+		"audrey-with-mel-ferrer": {
+			"path": "'img/article/audrey-with-mel-ferrer.jpg'",
+			"width": 1000,
+			"height": 670
+		},
+		"audrey-with-mel-ferrer_1200": {
+			"path": "'img/article/audrey-with-mel-ferrer_1200.jpg'",
+			"width": 1200,
+			"height": 804
+		},
+		"audrey-with-mel-ferrer_1600": {
+			"path": "'img/article/audrey-with-mel-ferrer_1600.jpg'",
+			"width": 1280,
+			"height": 858
+		},
+		"audrey-with-mel-ferrer_320": {
+			"path": "'img/article/audrey-with-mel-ferrer_320.jpg'",
+			"width": 320,
+			"height": 215
+		},
+		"audrey-with-mel-ferrer_450": {
+			"path": "'img/article/audrey-with-mel-ferrer_450.jpg'",
+			"width": 450,
+			"height": 302
+		},
+		"audrey-with-mel-ferrer_520": {
+			"path": "'img/article/audrey-with-mel-ferrer_520.jpg'",
+			"width": 520,
+			"height": 349
+		},
+		"audrey-with-mel-ferrer_680": {
+			"path": "'img/article/audrey-with-mel-ferrer_680.jpg'",
+			"width": 680,
+			"height": 456
+		},
+		"audrey-with-mel-ferrer_768": {
+			"path": "'img/article/audrey-with-mel-ferrer_768.jpg'",
+			"width": 768,
+			"height": 515
+		},
+		"audrey-with-mel-ferrer_992": {
+			"path": "'img/article/audrey-with-mel-ferrer_992.jpg'",
+			"width": 992,
+			"height": 665
+		},
+		"audrey-with-mother": {
+			"path": "'img/article/audrey-with-mother.jpg'",
+			"width": 1000,
+			"height": 699
+		},
+		"audrey-with-mother_1200": {
+			"path": "'img/article/audrey-with-mother_1200.jpg'",
+			"width": 1124,
+			"height": 786
+		},
+		"audrey-with-mother_1600": {
+			"path": "'img/article/audrey-with-mother_1600.jpg'",
+			"width": 1124,
+			"height": 786
+		},
+		"audrey-with-mother_320": {
+			"path": "'img/article/audrey-with-mother_320.jpg'",
+			"width": 320,
+			"height": 224
+		},
+		"audrey-with-mother_450": {
+			"path": "'img/article/audrey-with-mother_450.jpg'",
+			"width": 450,
+			"height": 315
+		},
+		"audrey-with-mother_520": {
+			"path": "'img/article/audrey-with-mother_520.jpg'",
+			"width": 520,
+			"height": 364
+		},
+		"audrey-with-mother_680": {
+			"path": "'img/article/audrey-with-mother_680.jpg'",
+			"width": 680,
+			"height": 476
+		},
+		"audrey-with-mother_768": {
+			"path": "'img/article/audrey-with-mother_768.jpg'",
+			"width": 768,
+			"height": 537
+		},
+		"audrey-with-mother_992": {
+			"path": "'img/article/audrey-with-mother_992.jpg'",
+			"width": 992,
+			"height": 694
+		},
+		"young-audrey-hepburn": {
+			"path": "'img/article/young-audrey-hepburn.jpg'",
+			"width": 750,
+			"height": 1048
+		},
+		"young-audrey-hepburn_1200": {
+			"path": "'img/article/young-audrey-hepburn_1200.jpg'",
+			"width": 750,
+			"height": 1048
+		},
+		"young-audrey-hepburn_1600": {
+			"path": "'img/article/young-audrey-hepburn_1600.jpg'",
+			"width": 750,
+			"height": 1048
+		},
+		"young-audrey-hepburn_320": {
+			"path": "'img/article/young-audrey-hepburn_320.jpg'",
+			"width": 320,
+			"height": 447
+		},
+		"young-audrey-hepburn_450": {
+			"path": "'img/article/young-audrey-hepburn_450.jpg'",
+			"width": 450,
+			"height": 629
+		},
+		"young-audrey-hepburn_520": {
+			"path": "'img/article/young-audrey-hepburn_520.jpg'",
+			"width": 520,
+			"height": 727
+		},
+		"young-audrey-hepburn_680": {
+			"path": "'img/article/young-audrey-hepburn_680.jpg'",
+			"width": 680,
+			"height": 950
+		},
+		"young-audrey-hepburn_768": {
+			"path": "'img/article/young-audrey-hepburn_768.jpg'",
+			"width": 750,
+			"height": 1048
+		},
+		"young-audrey-hepburn_992": {
+			"path": "'img/article/young-audrey-hepburn_992.jpg'",
+			"width": 750,
+			"height": 1048
+		},
+		"heroimage_15x": {
+			"path": "'img/header/heroimage_15x.jpg'",
+			"width": 1500,
+			"height": 844
+		},
+		"heroimage_1x": {
+			"path": "'img/header/heroimage_1x.jpg'",
+			"width": 1000,
+			"height": 563
+		},
+		"heroimage_2x": {
+			"path": "'img/header/heroimage_2x.jpg'",
+			"width": 2000,
+			"height": 1125
+		},
+		"audrey-hepurn-face": {
+			"path": "'img/links/audrey-hepurn-face.jpg'",
+			"width": 1000,
+			"height": 735
+		},
+		"audrey-hepurn-face_1200": {
+			"path": "'img/links/audrey-hepurn-face_1200.jpg'",
+			"width": 1200,
+			"height": 882
+		},
+		"audrey-hepurn-face_1600": {
+			"path": "'img/links/audrey-hepurn-face_1600.jpg'",
+			"width": 1531,
+			"height": 1125
+		},
+		"audrey-hepurn-face_320": {
+			"path": "'img/links/audrey-hepurn-face_320.jpg'",
+			"width": 320,
+			"height": 235
+		},
+		"audrey-hepurn-face_450": {
+			"path": "'img/links/audrey-hepurn-face_450.jpg'",
+			"width": 450,
+			"height": 331
+		},
+		"audrey-hepurn-face_520": {
+			"path": "'img/links/audrey-hepurn-face_520.jpg'",
+			"width": 520,
+			"height": 382
+		},
+		"audrey-hepurn-face_680": {
+			"path": "'img/links/audrey-hepurn-face_680.jpg'",
+			"width": 680,
+			"height": 500
+		},
+		"audrey-hepurn-face_768": {
+			"path": "'img/links/audrey-hepurn-face_768.jpg'",
+			"width": 768,
+			"height": 564
+		},
+		"audrey-hepurn-face_992": {
+			"path": "'img/links/audrey-hepurn-face_992.jpg'",
+			"width": 992,
+			"height": 729
+		}
+	}
+}

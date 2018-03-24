@@ -1,0 +1,8 @@
+//Transform $images map to two-dimensional list
+$imagesSet: (to-list($images, "values"))
+$imagesList: ()
+@each $i in $imagesSet
+	$imagesList: append($imagesList, to-list($i, "values"))
+
+//Translate breakpoint numbers to valid px values
+$breakpoints: add-units($breakpoints)

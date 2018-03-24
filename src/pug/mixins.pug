@@ -1,0 +1,140 @@
+//-   MIXIN FOR IMAGE WITH SRCET AND SIZES ATTRIBUTES
+//-   Takes 4 arguments:
+//-   src: a string with path to original(default) file
+//-   alt: string with alt text
+//-   resolutions: an array with all necessary resolutions, for example [450,  520, 680, 768, 992, 1200].
+//-   sizes: a 2-dimensional array. The inner values can be an array of length 2, where array[0] is a string with media query condition, and array[1] is a string with width including units. Besides the array, there can be included one string, representing the default width. Example:
+//-    var articleSizes = [
+//-    		["min-width: 24em", "50vw"],
+//-    		["min-width: 36em", "33.3vw"],
+//-    		"100vw"
+//-    	];
+//-    FILE NAMING: to get this mixin working properly, all your source files need to be located in the same folder and follow the same naming scheme.
+//-    Default image: {fileName}.{FileExtention} --> this value is to be included as src argument
+//-    Alternative sources:{fileName}-(resolutions value, corrssponding to the image).{fileExtention}.
+//-   Example:
+//-   Default image: src/img/heroimage.jpg
+//-   Source image for 500w viewport: src/img/heroimage-500.jpg
+
+mixin img(src, alt, resolutions, sizes)
+	-
+		var src  =src.toLowerCase()
+		var srcPath = [];
+
+		srcPath.push(src.substring(0, src.lastIndexOf('.')), src.substring(src.lastIndexOf('.')));
+		var srcset = [];
+		for (i = 0; i  <  resolutions.length; i++) {
+			srcset.push(srcPath.join("_" + resolutions[i]) + " " + resolutions[i] + "w");
+		}
+		srcset = srcset.join(", ");
+		var mediaSizes = [];
+		var defaultSize;
+		if (sizes.constructor === Array) {
+			for (var i = 0; i < sizes.length; i++) {
+				if (sizes[i].constructor === Array && sizes[i].length === 2) {
+				mediaSizes.push("\(" + sizes[i][0] + "\) " + sizes[i][1]);
+				}
+				else if (sizes[i].constructor === String) {
+					defaultSize = sizes[i];
+				}
+				else {
+					console.log("Check Sizes value: it can only take arrays of length 2, containing media query and width/pixel density descriptor, or default width as string")
+				}
+			}
+			if (mediaSizes.length > 0) {
+				sizes = mediaSizes.join(",") + "," + defaultSize;
+			}
+			else {
+				sizes = defaultSize;
+			}
+
+			}
+		else {
+			console.log("Sizes must be array or number")
+		}
+		//Placeholder src
+		var phdir = "img/placeholders";
+		var phsrc = phdir + src.substring(src.lastIndexOf("/"), src.lastIndexOf(".")) + ".svg";
+
+		//Get image width and height attributes from JSON
+		var imagesArr = Object.values(locals.img.images);
+		function findPath(p) {
+			for(var i = 0; i < imagesArr.length; i += 1) {
+				var element = imagesArr[i].path;
+				if ((element.indexOf(p)) !== -1) {
+					return i;
+				}
+			}
+		}
+
+		var imageIndex = findPath(src);
+		var imageWidth =  imagesArr[imageIndex].width;
+		var imageHeight =  imagesArr[imageIndex].height;
+
+	img(src=(locals.config.lazyload ? phsrc : src), alt=alt, srcset=(locals.config.lazyload ? false : srcset), sizes=(locals.config.lazyload ? false : sizes), data-src=(locals.config.lazyload ? src : false), data-srcset=(locals.config.lazyload ? srcset : false), data-sizes=(locals.config.lazyload ? sizes : false), width=imageWidth, height=imageHeight)&attributes(attributes)
+
+//- SVG Icon mixin
+mixin icon(name)
+	svg(xmlns="http://www.w3.org/2000/svg" class="icon-" + name)
+		use(xlink:href="icons/icons.svg#icon-" + name)
+
+mixin figure-img(src, alt, resolutions, sizes)
+	-
+		var src  =src.toLowerCase()
+		var srcPath = [];
+
+		srcPath.push(src.substring(0, src.lastIndexOf('.')), src.substring(src.lastIndexOf('.')));
+		var srcset = [];
+		for (i = 0; i  <  resolutions.length; i++) {
+			srcset.push(srcPath.join("_" + resolutions[i]) + " " + resolutions[i] + "w");
+		}
+		srcset = srcset.join(", ");
+		var mediaSizes = [];
+		var defaultSize;
+		if (sizes.constructor === Array) {
+			for (var i = 0; i < sizes.length; i++) {
+				if (sizes[i].constructor === Array && sizes[i].length === 2) {
+				mediaSizes.push("\(" + sizes[i][0] + "\) " + sizes[i][1]);
+				}
+				else if (sizes[i].constructor === String) {
+					defaultSize = sizes[i];
+				}
+				else {
+					console.log("Check Sizes value: it can only take arrays of length 2, containing media query and width/pixel density descriptor, or default width as string")
+				}
+			}
+			if (mediaSizes.length > 0) {
+				sizes = mediaSizes.join(",") + "," + defaultSize;
+			}
+			else {
+				sizes = defaultSize;
+			}
+			}
+		else {
+			console.log("Sizes must be array or number")
+		}
+
+		//Placeholder src
+		var phdir = "img/placeholders";
+		var phsrc = phdir + src.substring(src.lastIndexOf("/"), src.lastIndexOf(".")) + ".svg";
+
+		//Get image width and height attributes from JSON
+		var imagesArr = Object.values(locals.img.images);
+		function findPath(p) {
+			for(var i = 0; i < imagesArr.length; i += 1) {
+				var element = imagesArr[i].path;
+				if ((element.indexOf(p)) !== -1) {
+					return i;
+				}
+			}
+		}
+
+		var imageIndex = findPath(src);
+		var imageWidth =  imagesArr[imageIndex].width;
+		var imageHeight =  imagesArr[imageIndex].height;
+		var aspectRatio = imageWidth / imageHeight;
+
+	figure(style="flex:" + aspectRatio)&attributes(attributes)
+		img(src=(locals.config.lazyload ? phsrc : src), alt=alt, srcset=(locals.config.lazyload ? false : srcset), sizes=(locals.config.lazyload ? false : sizes), data-src=(locals.config.lazyload ? src : false), data-srcset=(locals.config.lazyload ? srcset : false), data-sizes=(locals.config.lazyload ? sizes : false), width=imageWidth, height=imageHeight)&attributes(attributes)
+		figcaption
+			block

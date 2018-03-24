@@ -1,0 +1,28 @@
+Audrey-Tribute-Page:
+
+Tested bugs:
+	Slider:
+		[x]  Fix link area on buttons @done (18-02-15 14:48)
+		[x]  Fix height of slider on mobile @done (18-02-11 00:17)
+		[x]  Disable scroll on slider @done (18-02-11 01:01)
+		[x] add to top button @done (18-02-12 22:13)
+Project preparation:
+	[x]  cleanup tasks @done (18-02-11 20:37)
+	[x]  rewrite build task @done (18-02-11 20:36)
+	[x]  delete unneeded modules @done (18-02-15 14:52)
+	[x]  add tests of build productivity @done (18-03-19 18:22)
+	[x]  favicon task @done (18-02-11 22:49)
+	[x] test svg fallback @done (18-02-11 23:59)
+	[x] add hover png @done (18-02-15 14:48)
+	[x]	nice error log @done (18-02-19 21:50)
+	[x]	validate final css and js @done (18-02-26 16:14)
+	[-]	PSI report - ngrok? @cancelled (18-03-19 18:22)
+	[x]	config for paths @done (18-02-26 23:52)
+	[x]	better modules definition in gulp @done (18-02-26 16:14)
+	[x]	remove img/orig to assets @done (18-03-19 18:22)
+	[-]	performance budget metric??? @cancelled (18-03-19 18:23)
+	[-]	Test html proofer, find good params @cancelled (18-03-19 18:23)
+	[-]	refactor build and buildvalidation @cancelled (18-03-19 18:23)
+
+	Notes:
+		'depcheck' in terminal - check unused dependencies

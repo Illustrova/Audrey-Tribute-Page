@@ -1,0 +1,124 @@
+.chapter
+	display: flex
+	flex-direction: column
+
+	margin-top: 2em
+
+	@include media(">=m")
+		flex-direction: row
+
+.chapter-heading
+	display: flex
+	align-items: center
+
+	@include media(">=m")
+		position: relative
+
+		flex-basis: 40%
+	@include media(">=l")
+		display: flex
+		flex-basis: 50%
+		align-items: flex-start
+		justify-content: space-between
+
+.chapter-number
+	user-select: none
+	vertical-align: middle
+
+	color: $number-color
+
+	font-family: $heading-font
+	font-size: 5.5em
+	line-height: 1
+
+	@include media(">=m")
+		margin-left: 0.5rem
+
+		font-size: 12.5em
+	@include media(">=l")
+		margin-top: -60px
+		margin-left: 0
+
+.chapter-title
+	flex-basis: 50%
+
+	margin-left: 5%
+
+	text-align: left
+	text-transform: uppercase
+
+	color: $heading-color
+
+	font-family: $heading-font
+	font-size: $heading-size
+	font-weight: bold
+
+	@include media(">=xs")
+		flex-basis: 100%
+
+		margin-left: 0
+
+		text-align: center
+	@include media(">=m")
+		position: absolute
+		top: 50%
+		left: 0
+
+		margin-right: 0.5rem
+		margin-left: 25%
+
+		transform: translateY(-50%)
+		text-align: left
+
+		font-size: 1.5em
+	@include media(">=l")
+		position: relative
+		top: 0
+
+		flex-basis: 45%
+
+		margin-top: -0.15em //line-height correction for better alignment
+		margin-right: 0.5em
+		margin-left: auto
+
+		transform: none
+		text-align: right
+
+.chapter-text
+	text-align: justify
+
+	@include media(">=m")
+		flex-basis: 60%
+
+		margin: 0 0.5rem
+	@include media(">=l")
+		flex-basis: 50%
+
+		padding-right: calc(20px +  0.5em)
+		padding-left: 0.5em
+
+//Checkmate alignment on wide screens
+
+.chapter:nth-of-type(even) .chapter-heading
+	@include media(">=l")
+		order: 2
+
+.chapter:nth-of-type(even) .chapter-number
+	@include media(">=l")
+		order: 2
+
+.chapter:nth-of-type(even) .chapter-text
+	@include media(">=l")
+		order: -1
+
+		padding-right: 0.5em
+		padding-left: calc(20px +  0.5em)
+
+.chapter:nth-of-type(even) .chapter-heading .chapter-title
+	@include media(">=l")
+		order: -1
+
+		margin-right: auto
+		margin-left: 0.5em
+
+		text-align: left

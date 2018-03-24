@@ -1,0 +1,56 @@
+.blockquote-container
+	position: relative
+
+	text-align: center
+
+.blockquote
+	display: inline-flex
+	flex-wrap: wrap
+	justify-content: flex-start
+
+	margin: 2em 5%
+
+	color: $accent-color
+
+	font-family: $accent-font
+	font-size: 1.5em
+
+	@include media(">=xs")
+		font-size: 1.75em
+	@include media(">=m")
+		margin-right: 10%
+		margin-left: 10%
+	@include media(">=l")
+		font-size: 2em
+	@include media(">=xl")
+		margin-right: 15%
+		margin-left: 15%
+
+.blockquote:before
+	position: absolute
+	z-index: -1
+	top: 16%
+	left: 0
+
+	content: "\201C"
+
+	color: $quote-color
+
+	font-family: $heading-font
+	font-size: 10em
+	line-height: 1
+
+	@include media(">=m")
+		top: 13%
+		left: 10%
+	@include media(">=l")
+		top: 16%
+		left: 15%
+
+.blockquote-line
+	display: inline-block
+
+	text-align: right
+
+.blockquote-line:last-child
+	margin-left: auto
