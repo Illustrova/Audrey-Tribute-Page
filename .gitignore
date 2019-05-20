@@ -8,4 +8,4 @@ node_modules
 .Trashes
 
 ### Dist
-dist
+build
